@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "EIP712DomainChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "eip712Domain",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "fields",
+						"type": "bytes1"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "version",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "chainId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "verifyingContract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "salt",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "extensions",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"events": {
+				"EIP712DomainChanged()": {
+					"details": "MAY be emitted to signal that the domain could have changed."
+				}
+			},
+			"kind": "dev",
+			"methods": {
+				"eip712Domain()": {
+					"details": "returns the fields and values that describe the domain separator used by this contract for EIP-712 signature."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"flat.sol": "IERC5267"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"flat.sol": {
+			"keccak256": "0x5763c658362b7c7c901e28c4d034d4eea4a64e1ef9075def4fb967855df6a2fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://977aff47bc0b1212ecdc6b38a850daf34a326763aa45b9039f93597c2ad70c9d",
+				"dweb:/ipfs/QmWnteB7cnLmz2efVz3rQw2XPSy9jqBT1AMceQDGYHVRXu"
+			]
+		}
+	},
+	"version": 1
+}
